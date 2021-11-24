@@ -1,9 +1,8 @@
-def sum_numbers(num_1,num_2):
-    result = num_1 +num_2
-    return result
-first_num = 190
-second_num = 210
-print(sum_numbers(first_num, second_num))
-
-
+def sum(*args):
+    total_sum = 0
+    for number in args:
+        total_sum += number
+    return total_sum
+result = sum(1,3,4,5,8,9,16)
+print({result})
 
