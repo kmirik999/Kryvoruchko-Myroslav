@@ -4,10 +4,5 @@ def sum(*args):
     for number in args:
         total_sum += number
     return total_sum
-result = sum(1,3,4,5,8,9,16)
-print({result})
-
-
-
-
-
+result = sum(1, 3, 4, 5, 8, 9, 16)
+print({ 'result': result })
