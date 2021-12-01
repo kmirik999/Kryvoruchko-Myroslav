@@ -6,3 +6,4 @@ const sum = (...args) => {
     return totalSum
   };
   console.log(sum(299, 1, 10, 90))
+  
